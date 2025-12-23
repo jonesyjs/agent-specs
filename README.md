@@ -6,10 +6,14 @@ Personal collection of Claude Skills — modular, reusable instruction sets for 
 
 ```
 agent-specs/
-├── skills/              # All skills
+├── skills/
+│   ├── _shared/         # Reusable components
+│   │   ├── output-formats.md
+│   │   ├── common-rules.md
+│   │   └── tones.md
 │   └── skill-name/
-│       └── SKILL.md     # Skill definition (YAML frontmatter + instructions)
-├── template/            # Skill template
+│       └── SKILL.md
+├── template/
 └── README.md
 ```
 
