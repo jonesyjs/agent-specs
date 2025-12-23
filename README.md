@@ -2,28 +2,32 @@
 
 Personal collection of Claude Skills — modular, reusable instruction sets for AI agents.
 
-## Skill Anatomy
+## Skill Structure
 
-Each skill follows a two-part structure:
+Each skill is a folder containing:
 
-### 1. Context Engineering (Roles & Permissions)
+```
+skill-name/
+├── README.md           # Summary
+├── role.md             # Role definition
+├── scope.md            # Allow / Disallow
+├── workflow.md         # Decision logic + Stopping conditions
+├── input.schema.json   # Input expectations
+└── output.schema.json  # Output format
+```
 
-| Component | Purpose |
-|-----------|---------|
-| **Role Definition** | Who the agent is, expertise, communication style |
-| **Task Scope (Allow)** | What the skill is permitted to do |
-| **Constraints (Disallow)** | Hard boundaries and restrictions |
+## Anatomy
 
-### 2. Governance (Workflow Algorithm)
+| File | Purpose |
+|------|---------|
+| `role.md` | Who the agent is, expertise, communication style |
+| `scope.md` | What's allowed and what's forbidden |
+| `workflow.md` | Decision rules, missing input handling, stopping conditions |
+| `input.schema.json` | JSON schema for expected inputs |
+| `output.schema.json` | JSON schema for output format |
+| `README.md` | High-level summary of the skill |
 
-| Component | Purpose |
-|-----------|---------|
-| **Input Expectations** | Required inputs from user |
-| **Output Format** | How results are delivered |
-| **Decision Rules** | Logic for choosing between options |
-| **Stopping Conditions** | When the task is complete |
-
-## Structure
+## Repository Structure
 
 ```
 agent-specs/
@@ -39,7 +43,5 @@ agent-specs/
 ```bash
 # Create a new skill
 cp -r _template coding/my-skill
-# Edit the SKILL.md
+# Edit the files in coding/my-skill/
 ```
-
-Skills are auto-loaded by Claude when relevant context is detected.

@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "question": {
+      "type": "string",
+      "description": "Brief description of the situation or help needed"
+    },
+    "domain": {
+      "type": "string",
+      "description": "Area of expertise (e.g., productivity, creativity)"
+    }
+  },
+  "required": ["question", "domain"]
+}
+
