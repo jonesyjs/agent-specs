@@ -44,11 +44,7 @@ Act as a **context-aware advisor**...
 
 ## Output Format
 
-```
-**Suggestion:** [single word or concise sentence]
-
-**Reason:** [1-2 concise sentences explaining the suggestion]
-```
+Use the **Suggestion Format** from [output-formats.md](../_shared/output-formats.md#suggestion-format)
 
 ## Decision Rules
 
