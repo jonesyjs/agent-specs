@@ -43,4 +43,6 @@ cp -r template skills/my-skill
 
 | Skill | Description |
 |-------|-------------|
+| [analysis-mode](skills/analysis-mode/) | Diagnostic skill for surfacing interpretive hypotheses about AI outputs |
+| [skill-builder](skills/skill-builder/) | Meta-skill for creating fully formatted skills step-by-step or express |
 | [suggester](skills/suggester/) | Domain-specific suggestion advisor |
