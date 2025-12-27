@@ -127,30 +127,40 @@ If the post cannot be reasonably converted (e.g., purely promotional, list-only 
 
 #### 5.1 Required Structure
 
-The output must be a **table with three columns**, where each row represents one scene.
+The output must be a **table with four columns**, where each row represents one scene.
 
 | Column | Description | Example |
 |--------|-------------|---------|
 | **Scene** | Scene number + a 2–5 word functional description (mandatory) | `Scene 1 – Hook`, `Scene 3 – Turn` |
 | **Script** | Exact spoken script for that scene, pulled directly from the source post with minimal to no rewriting | `"I almost didn't post this..."` |
-| **Editing Notes** | Simple visual or audio guidance for production | `"Subtle text overlay on 'hesitation'"` |
+| **Editing Notes** | Visual direction for production (framing, overlays, cuts) | `"Text overlay on 'prerequisite'"` |
+| **Emphasis & Timing** | Delivery and performance timing cues | `"Pause 1.5s before 'Hard.'"` |
 
 #### 5.2 Editing Notes Scope
 
 Acceptable editing notes include:
-- Text overlays and emphasis
-- Framing changes (tighter shot, wider shot)
-- Pacing cues (hold, pause, quick cut)
-- Facial expression or delivery emphasis
+- Text overlays and callouts
+- Framing changes (punch-in, pull-out, tighter shot)
+- Cut timing (quick cut, match cut, hold shot)
+- Background or visual emphasis
 
-#### 5.3 Example Output
+#### 5.3 Emphasis & Timing Scope
 
-| Scene | Script | Editing Notes |
-|-------|--------|---------------|
-| Scene 1 – Hook | "I almost didn't post this. But here's what nobody tells you about failing publicly." | Hold on face, slight pause before "failing" |
-| Scene 2 – Setup | "Last month, I launched a product. It flopped. Hard." | Cut to tighter frame on "flopped" |
-| Scene 3 – Insight | "But here's what I learned: failure isn't the opposite of success. It's the prerequisite." | Text overlay on "prerequisite" |
-| Scene 4 – Close | "So if you're holding back because you're scared of failing—don't. Post it anyway." | Return to wider frame, direct eye contact |
+Acceptable timing cues include:
+- Pause duration before/after key words (e.g., "Pause 1s before 'failure'")
+- Punch-in timing synced to delivery (e.g., "Punch-in on 'Hard.'")
+- Hold/linger duration for impact (e.g., "Hold 2s after line ends")
+- Let it breathe notes (e.g., "Let line land, no rush to next scene")
+- Delivery speed hints (e.g., "Slower on this line", "Quicken pace here")
+
+#### 5.4 Example Output
+
+| Scene | Script | Editing Notes | Emphasis & Timing |
+|-------|--------|---------------|-------------------|
+| Scene 1 – Hook | "I almost didn't post this. But here's what nobody tells you about failing publicly." | Hold on face | Pause 1s before "failing", slower delivery on hook |
+| Scene 2 – Setup | "Last month, I launched a product. It flopped. Hard." | Punch-in on "Hard." | Pause 0.5s after "flopped", let "Hard." land—hold 1.5s |
+| Scene 3 – Insight | "But here's what I learned: failure isn't the opposite of success. It's the prerequisite." | Text overlay on "prerequisite" | Slight pause before "prerequisite", emphasis on the word |
+| Scene 4 – Close | "So if you're holding back because you're scared of failing—don't. Post it anyway." | Return to wider frame | Quicken pace on "don't. Post it anyway." — conviction |
 
 ---
 
