@@ -96,6 +96,20 @@ Expressed as one of:
 **Optional:**
 - Source type (for context, does not change processing logic).
 - Tone or pacing preferences (if not provided, default to the original post's natural rhythm).
+- Editing guidelines (see below).
+
+#### iii. Editing Guidelines (Optional)
+
+Production preferences for this specific video. If provided, editing notes will align with these preferences.
+
+Examples of what can be specified:
+- **Text overlay style:** minimal, punchy, explanatory, branded
+- **Pacing preference:** fast cuts, lingering shots, match speech rhythm
+- **Platform target:** TikTok, YouTube Shorts, Instagram Reels, standard YouTube
+- **Framing notes:** talking head only, cutaways allowed, screen recordings expected
+- **Editor context:** solo creator (keep notes simple) vs. professional editor (can include technical direction)
+
+If not provided, defaults to minimal, platform-agnostic notes within the allowed scope (text overlays, framing changes, pacing cues).
 
 #### 4.2 Input Conflict Resolution
 
